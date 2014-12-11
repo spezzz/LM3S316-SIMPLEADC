@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=SpectrInpector.map -O0 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\SpectrInpector -TC:\CooCox\CoIDE\configuration\ProgramData\SpectrInpector/arm-gcc-link.ld -g">
+      <target file="SpectrInpector.elf" lastModified="14a39553427">
+         <source file="..\obj\timer.o" lastModified="14a39552f3b"/>
+         <source file="..\obj\main.o" lastModified="14a39552f81"/>
+         <source file="..\obj\sysctl.o" lastModified="14a39552ff9"/>
+         <source file="..\obj\gpio.o" lastModified="14a39553067"/>
+         <source file="..\obj\interrupt.o" lastModified="14a395530af"/>
+         <source file="..\obj\startup_lm3s.o" lastModified="14a395530e2"/>
+         <source file="..\obj\syscalls.o" lastModified="14a39553123"/>
+         <source file="..\obj\adc.o" lastModified="14a39553180"/>
+         <source file="..\obj\cpu.o" lastModified="14a395531b1"/>
+         <source file="..\obj\systick.o" lastModified="14a395531e9"/>
+      </target>
+   </processor>
+</history>

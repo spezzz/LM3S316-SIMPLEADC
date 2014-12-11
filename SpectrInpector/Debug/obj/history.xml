@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DLM3S316 -Dgcc -I..\..\..\workspace\SpectrInpector\lm3slib\inc -I..\..\..\workspace -I..\..\..\workspace\SpectrInpector\lm3slib\driverlib -I..\..\..\workspace\SpectrInpector\cmsis -I..\..\..\workspace\SpectrInpector\lm3slib -I..\..\..\workspace\SpectrInpector">
+      <target file="syscalls.o" lastModified="14a39553123">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14a38951de0"/>
+      </target>
+      <target file="adc.o" lastModified="14a39553180">
+         <source file="..\..\..\lm3slib\driverlib\adc.c" lastModified="14a389527c8"/>
+      </target>
+      <target file="timer.o" lastModified="14a39552f3b">
+         <source file="..\..\..\lm3slib\driverlib\timer.c" lastModified="14a38a2c2c0"/>
+      </target>
+      <target file="systick.o" lastModified="14a395531e9">
+         <source file="..\..\..\lm3slib\driverlib\systick.c" lastModified="14a38955fca"/>
+      </target>
+      <target file="startup_lm3s.o" lastModified="14a395530e2">
+         <source file="..\..\..\startup\startup_lm3s.c" lastModified="14a3921a221"/>
+      </target>
+      <target file="main.o" lastModified="14a39552f81">
+         <source file="..\..\..\main.c" lastModified="14a3955288f"/>
+      </target>
+      <target file="interrupt.o" lastModified="14a395530af">
+         <source file="..\..\..\lm3slib\driverlib\interrupt.c" lastModified="14a389529d9"/>
+      </target>
+      <target file="cpu.o" lastModified="14a395531b1">
+         <source file="..\..\..\lm3slib\driverlib\cpu.c" lastModified="14a389529fa"/>
+      </target>
+      <target file="gpio.o" lastModified="14a39553067">
+         <source file="..\..\..\lm3slib\driverlib\gpio.c" lastModified="14a38954bc7"/>
+      </target>
+      <target file="sysctl.o" lastModified="14a39552ff9">
+         <source file="..\..\..\lm3slib\driverlib\sysctl.c" lastModified="14a38954ca4"/>
+      </target>
+   </processor>
+</history>

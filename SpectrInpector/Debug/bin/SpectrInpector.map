@@ -1,0 +1,733 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\timer.o
+ .data          0x00000000        0x0 ..\obj\timer.o
+ .bss           0x00000000        0x0 ..\obj\timer.o
+ .text.TimerEnable
+                0x00000000       0x2c ..\obj\timer.o
+ .text.TimerDisable
+                0x00000000       0x30 ..\obj\timer.o
+ .text.TimerConfigure
+                0x00000000       0x48 ..\obj\timer.o
+ .text.TimerControlLevel
+                0x00000000       0x48 ..\obj\timer.o
+ .text.TimerControlTrigger
+                0x00000000       0x48 ..\obj\timer.o
+ .text.TimerControlEvent
+                0x00000000       0x3c ..\obj\timer.o
+ .text.TimerControlStall
+                0x00000000       0x48 ..\obj\timer.o
+ .text.TimerControlWaitOnTrigger
+                0x00000000       0x7c ..\obj\timer.o
+ .text.TimerRTCEnable
+                0x00000000       0x24 ..\obj\timer.o
+ .text.TimerRTCDisable
+                0x00000000       0x24 ..\obj\timer.o
+ .text.TimerPrescaleSet
+                0x00000000       0x38 ..\obj\timer.o
+ .text.TimerPrescaleGet
+                0x00000000       0x2c ..\obj\timer.o
+ .text.TimerPrescaleMatchSet
+                0x00000000       0x38 ..\obj\timer.o
+ .text.TimerPrescaleMatchGet
+                0x00000000       0x2c ..\obj\timer.o
+ .text.TimerLoadSet
+                0x00000000       0x38 ..\obj\timer.o
+ .text.TimerLoadGet
+                0x00000000       0x2c ..\obj\timer.o
+ .text.TimerValueGet
+                0x00000000       0x2c ..\obj\timer.o
+ .text.TimerMatchSet
+                0x00000000       0x38 ..\obj\timer.o
+ .text.TimerMatchGet
+                0x00000000       0x2c ..\obj\timer.o
+ .text.TimerIntRegister
+                0x00000000       0x7c ..\obj\timer.o
+ .text.TimerIntUnregister
+                0x00000000       0x78 ..\obj\timer.o
+ .text.TimerIntEnable
+                0x00000000       0x24 ..\obj\timer.o
+ .text.TimerIntDisable
+                0x00000000       0x28 ..\obj\timer.o
+ .text.TimerIntStatus
+                0x00000000       0x2c ..\obj\timer.o
+ .text.TimerQuiesce
+                0x00000000       0xb4 ..\obj\timer.o
+ .text          0x00000000        0x0 ..\obj\main.o
+ .data          0x00000000        0x0 ..\obj\main.o
+ .text.TIMConfigExp
+                0x00000000       0x40 ..\obj\main.o
+ .text.ADCConfigExp
+                0x00000000       0x3c ..\obj\main.o
+ .text          0x00000000        0x0 ..\obj\sysctl.o
+ .data          0x00000000        0x0 ..\obj\sysctl.o
+ .bss           0x00000000        0x0 ..\obj\sysctl.o
+ .text.SysCtlSRAMSizeGet
+                0x00000000       0x20 ..\obj\sysctl.o
+ .text.SysCtlFlashSizeGet
+                0x00000000       0x20 ..\obj\sysctl.o
+ .text.SysCtlPinPresent
+                0x00000000       0x2c ..\obj\sysctl.o
+ .text.SysCtlPeripheralPresent
+                0x00000000       0x64 ..\obj\sysctl.o
+ .text.SysCtlPeripheralReset
+                0x00000000       0x80 ..\obj\sysctl.o
+ .text.SysCtlPeripheralDisable
+                0x00000000       0x44 ..\obj\sysctl.o
+ .text.SysCtlPeripheralSleepEnable
+                0x00000000       0x40 ..\obj\sysctl.o
+ .text.SysCtlPeripheralSleepDisable
+                0x00000000       0x44 ..\obj\sysctl.o
+ .text.SysCtlPeripheralDeepSleepEnable
+                0x00000000       0x40 ..\obj\sysctl.o
+ .text.SysCtlPeripheralDeepSleepDisable
+                0x00000000       0x44 ..\obj\sysctl.o
+ .text.SysCtlPeripheralClockGating
+                0x00000000       0x38 ..\obj\sysctl.o
+ .text.SysCtlIntRegister
+                0x00000000       0x1c ..\obj\sysctl.o
+ .text.SysCtlIntUnregister
+                0x00000000       0x14 ..\obj\sysctl.o
+ .text.SysCtlIntEnable
+                0x00000000       0x24 ..\obj\sysctl.o
+ .text.SysCtlIntDisable
+                0x00000000       0x24 ..\obj\sysctl.o
+ .text.SysCtlIntClear
+                0x00000000       0x1c ..\obj\sysctl.o
+ .text.SysCtlIntStatus
+                0x00000000       0x30 ..\obj\sysctl.o
+ .text.SysCtlLDOSet
+                0x00000000       0x1c ..\obj\sysctl.o
+ .text.SysCtlLDOGet
+                0x00000000       0x18 ..\obj\sysctl.o
+ .text.SysCtlLDOConfigSet
+                0x00000000       0x1c ..\obj\sysctl.o
+ .text.SysCtlReset
+                0x00000000       0x14 ..\obj\sysctl.o
+ .text.SysCtlSleep
+                0x00000000        0xc ..\obj\sysctl.o
+ .text.SysCtlDeepSleep
+                0x00000000       0x28 ..\obj\sysctl.o
+ .text.SysCtlResetCauseGet
+                0x00000000       0x18 ..\obj\sysctl.o
+ .text.SysCtlResetCauseClear
+                0x00000000       0x24 ..\obj\sysctl.o
+ .text.SysCtlBrownOutConfigSet
+                0x00000000       0x24 ..\obj\sysctl.o
+ .text.SysCtlMOSCConfigSet
+                0x00000000       0x1c ..\obj\sysctl.o
+ .text.SysCtlPIOSCCalibrate
+                0x00000000       0x74 ..\obj\sysctl.o
+ .text.SysCtlClockGet
+                0x00000000      0x298 ..\obj\sysctl.o
+ .text.SysCtlDeepSleepClockSet
+                0x00000000       0x1c ..\obj\sysctl.o
+ .text.SysCtlPWMClockSet
+                0x00000000       0x28 ..\obj\sysctl.o
+ .text.SysCtlPWMClockGet
+                0x00000000       0x2c ..\obj\sysctl.o
+ .text.SysCtlADCSpeedSet
+                0x00000000       0x3c ..\obj\sysctl.o
+ .text.SysCtlADCSpeedGet
+                0x00000000       0x1c ..\obj\sysctl.o
+ .text.SysCtlIOSCVerificationSet
+                0x00000000       0x38 ..\obj\sysctl.o
+ .text.SysCtlMOSCVerificationSet
+                0x00000000       0x38 ..\obj\sysctl.o
+ .text.SysCtlPLLVerificationSet
+                0x00000000       0x38 ..\obj\sysctl.o
+ .text.SysCtlClkVerificationClear
+                0x00000000       0x1c ..\obj\sysctl.o
+ .text.SysCtlGPIOAHBEnable
+                0x00000000       0x24 ..\obj\sysctl.o
+ .text.SysCtlGPIOAHBDisable
+                0x00000000       0x28 ..\obj\sysctl.o
+ .text.SysCtlUSBPLLEnable
+                0x00000000       0x1c ..\obj\sysctl.o
+ .text.SysCtlUSBPLLDisable
+                0x00000000       0x1c ..\obj\sysctl.o
+ .text.SysCtlI2SMClkSet
+                0x00000000      0x168 ..\obj\sysctl.o
+ .text          0x00000000        0x0 ..\obj\gpio.o
+ .data          0x00000000        0x0 ..\obj\gpio.o
+ .bss           0x00000000        0x0 ..\obj\gpio.o
+ .rodata        0x00000000       0x48 ..\obj\gpio.o
+ .text.GPIOGetIntNumber
+                0x00000000      0x138 ..\obj\gpio.o
+ .text.GPIODirModeGet
+                0x00000000       0x5c ..\obj\gpio.o
+ .text.GPIOIntTypeSet
+                0x00000000       0xa8 ..\obj\gpio.o
+ .text.GPIOIntTypeGet
+                0x00000000       0x78 ..\obj\gpio.o
+ .text.GPIOPadConfigGet
+                0x00000000      0x110 ..\obj\gpio.o
+ .text.GPIOPinIntEnable
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinIntDisable
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinIntStatus
+                0x00000000       0x30 ..\obj\gpio.o
+ .text.GPIOPinIntClear
+                0x00000000       0x20 ..\obj\gpio.o
+ .text.GPIOPortIntRegister
+                0x00000000       0x28 ..\obj\gpio.o
+ .text.GPIOPortIntUnregister
+                0x00000000       0x24 ..\obj\gpio.o
+ .text.GPIOPinRead
+                0x00000000       0x24 ..\obj\gpio.o
+ .text.GPIOPinTypeADC
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypeCAN
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypeComparator
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypeEPI
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypeEthernetLED
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypeGPIOInput
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypeGPIOOutputOD
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypeI2C
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypeI2S
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypePWM
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypeQEI
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypeSSI
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypeTimer
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypeUART
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypeUSBAnalog
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinTypeUSBDigital
+                0x00000000       0x2c ..\obj\gpio.o
+ .text.GPIOPinConfigure
+                0x00000000       0x84 ..\obj\gpio.o
+ .text          0x00000000        0x0 ..\obj\interrupt.o
+ .data          0x00000000        0x0 ..\obj\interrupt.o
+ .bss           0x00000000        0x0 ..\obj\interrupt.o
+ .rodata        0x00000000       0x68 ..\obj\interrupt.o
+ .text.IntDefaultHandler
+                0x00000000        0x8 ..\obj\interrupt.o
+ vtable         0x00000000      0x400 ..\obj\interrupt.o
+ .text.IntMasterEnable
+                0x00000000       0x10 ..\obj\interrupt.o
+ .text.IntMasterDisable
+                0x00000000       0x10 ..\obj\interrupt.o
+ .text.IntRegister
+                0x00000000       0x64 ..\obj\interrupt.o
+ .text.IntUnregister
+                0x00000000       0x24 ..\obj\interrupt.o
+ .text.IntPriorityGroupingSet
+                0x00000000       0x30 ..\obj\interrupt.o
+ .text.IntPriorityGroupingGet
+                0x00000000       0x48 ..\obj\interrupt.o
+ .text.IntPrioritySet
+                0x00000000       0x60 ..\obj\interrupt.o
+ .text.IntPriorityGet
+                0x00000000       0x34 ..\obj\interrupt.o
+ .text.IntEnable
+                0x00000000       0xa4 ..\obj\interrupt.o
+ .text.IntDisable
+                0x00000000       0xa4 ..\obj\interrupt.o
+ .text.IntPendSet
+                0x00000000       0x8c ..\obj\interrupt.o
+ .text.IntPendClear
+                0x00000000       0x78 ..\obj\interrupt.o
+ .text.IntPriorityMaskSet
+                0x00000000       0x14 ..\obj\interrupt.o
+ .text.IntPriorityMaskGet
+                0x00000000       0x10 ..\obj\interrupt.o
+ .debug_info    0x00000000      0x30b ..\obj\interrupt.o
+ .debug_abbrev  0x00000000      0x143 ..\obj\interrupt.o
+ .debug_aranges
+                0x00000000       0x90 ..\obj\interrupt.o
+ .debug_ranges  0x00000000       0x80 ..\obj\interrupt.o
+ .debug_line    0x00000000      0x239 ..\obj\interrupt.o
+ .debug_str     0x00000000      0x266 ..\obj\interrupt.o
+ .comment       0x00000000       0x71 ..\obj\interrupt.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\interrupt.o
+ .debug_frame   0x00000000      0x1b4 ..\obj\interrupt.o
+ .text          0x00000000        0x0 ..\obj\startup_lm3s.o
+ .data          0x00000000        0x0 ..\obj\startup_lm3s.o
+ .bss           0x00000000        0x0 ..\obj\startup_lm3s.o
+ .text          0x00000000        0x0 ..\obj\syscalls.o
+ .data          0x00000000        0x0 ..\obj\syscalls.o
+ .bss           0x00000000        0x4 ..\obj\syscalls.o
+ .text._sbrk    0x00000000       0x40 ..\obj\syscalls.o
+ .text.link     0x00000000       0x1c ..\obj\syscalls.o
+ .text._close   0x00000000       0x18 ..\obj\syscalls.o
+ .text._fstat   0x00000000       0x20 ..\obj\syscalls.o
+ .text._isatty  0x00000000       0x18 ..\obj\syscalls.o
+ .text._lseek   0x00000000       0x1c ..\obj\syscalls.o
+ .text._read    0x00000000       0x1c ..\obj\syscalls.o
+ .text._write   0x00000000       0x1c ..\obj\syscalls.o
+ .text.abort    0x00000000        0x8 ..\obj\syscalls.o
+ .debug_info    0x00000000      0x3ee ..\obj\syscalls.o
+ .debug_abbrev  0x00000000       0xe2 ..\obj\syscalls.o
+ .debug_aranges
+                0x00000000       0x60 ..\obj\syscalls.o
+ .debug_ranges  0x00000000       0x50 ..\obj\syscalls.o
+ .debug_line    0x00000000      0x178 ..\obj\syscalls.o
+ .debug_str     0x00000000      0x2db ..\obj\syscalls.o
+ .comment       0x00000000       0x71 ..\obj\syscalls.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\syscalls.o
+ .debug_frame   0x00000000      0x108 ..\obj\syscalls.o
+ .text          0x00000000        0x0 ..\obj\adc.o
+ .data          0x00000000        0x0 ..\obj\adc.o
+ .bss           0x00000000        0x4 ..\obj\adc.o
+ .text.ADCIntRegister
+                0x00000000       0x38 ..\obj\adc.o
+ .text.ADCIntUnregister
+                0x00000000       0x34 ..\obj\adc.o
+ .text.ADCIntDisable
+                0x00000000       0x2c ..\obj\adc.o
+ .text.ADCIntEnable
+                0x00000000       0x38 ..\obj\adc.o
+ .text.ADCIntStatus
+                0x00000000       0x74 ..\obj\adc.o
+ .text.ADCSequenceEnable
+                0x00000000       0x28 ..\obj\adc.o
+ .text.ADCSequenceDisable
+                0x00000000       0x28 ..\obj\adc.o
+ .text.ADCSequenceConfigure
+                0x00000000       0x6c ..\obj\adc.o
+ .text.ADCSequenceStepConfigure
+                0x00000000       0xf4 ..\obj\adc.o
+ .text.ADCSequenceOverflow
+                0x00000000       0x28 ..\obj\adc.o
+ .text.ADCSequenceOverflowClear
+                0x00000000       0x24 ..\obj\adc.o
+ .text.ADCSequenceUnderflow
+                0x00000000       0x28 ..\obj\adc.o
+ .text.ADCSequenceUnderflowClear
+                0x00000000       0x24 ..\obj\adc.o
+ .text.ADCSoftwareOversampleConfigure
+                0x00000000       0x44 ..\obj\adc.o
+ .text.ADCSoftwareOversampleStepConfigure
+                0x00000000       0xcc ..\obj\adc.o
+ .text.ADCSoftwareOversampleDataGet
+                0x00000000       0x78 ..\obj\adc.o
+ .text.ADCHardwareOversampleConfigure
+                0x00000000       0x3c ..\obj\adc.o
+ .text.ADCComparatorConfigure
+                0x00000000       0x28 ..\obj\adc.o
+ .text.ADCComparatorRegionSet
+                0x00000000       0x30 ..\obj\adc.o
+ .text.ADCComparatorReset
+                0x00000000       0x50 ..\obj\adc.o
+ .text.ADCComparatorIntDisable
+                0x00000000       0x30 ..\obj\adc.o
+ .text.ADCComparatorIntEnable
+                0x00000000       0x2c ..\obj\adc.o
+ .text.ADCComparatorIntStatus
+                0x00000000       0x1c ..\obj\adc.o
+ .text.ADCComparatorIntClear
+                0x00000000       0x1c ..\obj\adc.o
+ .text.ADCReferenceSet
+                0x00000000       0x28 ..\obj\adc.o
+ .text.ADCReferenceGet
+                0x00000000       0x20 ..\obj\adc.o
+ .text.ADCPhaseDelaySet
+                0x00000000       0x1c ..\obj\adc.o
+ .text.ADCPhaseDelayGet
+                0x00000000       0x1c ..\obj\adc.o
+ .text          0x00000000        0x0 ..\obj\cpu.o
+ .data          0x00000000        0x0 ..\obj\cpu.o
+ .bss           0x00000000        0x0 ..\obj\cpu.o
+ .text.CPUcpsid
+                0x00000000       0x10 ..\obj\cpu.o
+ .text.CPUprimask
+                0x00000000        0xc ..\obj\cpu.o
+ .text.CPUcpsie
+                0x00000000       0x10 ..\obj\cpu.o
+ .text.CPUwfi   0x00000000        0x4 ..\obj\cpu.o
+ .text.CPUbasepriSet
+                0x00000000        0x8 ..\obj\cpu.o
+ .text.CPUbasepriGet
+                0x00000000        0xc ..\obj\cpu.o
+ .debug_info    0x00000000       0xfa ..\obj\cpu.o
+ .debug_abbrev  0x00000000       0xb2 ..\obj\cpu.o
+ .debug_aranges
+                0x00000000       0x48 ..\obj\cpu.o
+ .debug_ranges  0x00000000       0x38 ..\obj\cpu.o
+ .debug_line    0x00000000       0xdc ..\obj\cpu.o
+ .debug_str     0x00000000      0x122 ..\obj\cpu.o
+ .comment       0x00000000       0x71 ..\obj\cpu.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\cpu.o
+ .debug_frame   0x00000000       0x70 ..\obj\cpu.o
+ .text          0x00000000        0x0 ..\obj\systick.o
+ .data          0x00000000        0x0 ..\obj\systick.o
+ .bss           0x00000000        0x0 ..\obj\systick.o
+ .text.SysTickEnable
+                0x00000000       0x1c ..\obj\systick.o
+ .text.SysTickDisable
+                0x00000000       0x1c ..\obj\systick.o
+ .text.SysTickIntRegister
+                0x00000000       0x28 ..\obj\systick.o
+ .text.SysTickIntUnregister
+                0x00000000       0x1c ..\obj\systick.o
+ .text.SysTickIntEnable
+                0x00000000       0x1c ..\obj\systick.o
+ .text.SysTickIntDisable
+                0x00000000       0x1c ..\obj\systick.o
+ .text.SysTickPeriodSet
+                0x00000000       0x20 ..\obj\systick.o
+ .text.SysTickPeriodGet
+                0x00000000       0x18 ..\obj\systick.o
+ .text.SysTickValueGet
+                0x00000000       0x18 ..\obj\systick.o
+ .debug_info    0x00000000       0xfe ..\obj\systick.o
+ .debug_abbrev  0x00000000       0xba ..\obj\systick.o
+ .debug_aranges
+                0x00000000       0x60 ..\obj\systick.o
+ .debug_ranges  0x00000000       0x50 ..\obj\systick.o
+ .debug_line    0x00000000      0x10a ..\obj\systick.o
+ .debug_str     0x00000000      0x18f ..\obj\systick.o
+ .comment       0x00000000       0x71 ..\obj\systick.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\systick.o
+ .debug_frame   0x00000000       0xf8 ..\obj\systick.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00004000         xr
+ram              0x20000000         0x00001000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20001000                _eram = 0x20001000
+
+.text           0x00000000      0x8cc
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x100 ..\obj\startup_lm3s.o
+                0x00000000                g_pfnVectors
+ *(.text*)
+ .text.TimerIntClear
+                0x00000100       0x1c ..\obj\timer.o
+                0x00000100                TimerIntClear
+ .text.ADCSeq3_IRQHandler
+                0x0000011c       0x78 ..\obj\main.o
+                0x0000011c                ADCSeq3_IRQHandler
+ .text.Timer0A_IRQHandler
+                0x00000194       0x20 ..\obj\main.o
+                0x00000194                Timer0A_IRQHandler
+ .text.main     0x000001b4       0x7c ..\obj\main.o
+                0x000001b4                main
+ .text.SysCtlPeripheralEnable
+                0x00000230       0x40 ..\obj\sysctl.o
+                0x00000230                SysCtlPeripheralEnable
+ .text.SysCtlDelay
+                0x00000270        0x8 ..\obj\sysctl.o
+                0x00000270                SysCtlDelay
+ .text.SysCtlClockSet
+                0x00000278      0x210 ..\obj\sysctl.o
+                0x00000278                SysCtlClockSet
+ .text.GPIODirModeSet
+                0x00000488       0x78 ..\obj\gpio.o
+                0x00000488                GPIODirModeSet
+ .text.GPIOPadConfigSet
+                0x00000500      0x1c8 ..\obj\gpio.o
+                0x00000500                GPIOPadConfigSet
+ .text.GPIOPinWrite
+                0x000006c8       0x28 ..\obj\gpio.o
+                0x000006c8                GPIOPinWrite
+ .text.GPIOPinTypeGPIOOutput
+                0x000006f0       0x2c ..\obj\gpio.o
+                0x000006f0                GPIOPinTypeGPIOOutput
+ .text.Default_Reset_Handler
+                0x0000071c       0x5c ..\obj\startup_lm3s.o
+                0x0000071c                Default_Reset_Handler
+                0x0000071c                Reset_Handler
+ .text.Default_Handler
+                0x00000778        0x8 ..\obj\startup_lm3s.o
+                0x00000778                DebugMon_Handler
+                0x00000778                FlashCtrl_IRQHandler
+                0x00000778                Timer0B_IRQHandler
+                0x00000778                I2C0_IRQHandler
+                0x00000778                HardFault_Handler
+                0x00000778                SysTick_Handler
+                0x00000778                PendSV_Handler
+                0x00000778                NMI_Handler
+                0x00000778                I2C1_IRQHandler
+                0x00000778                PWMGen0_IRQHandler
+                0x00000778                UART1_IRQHandler
+                0x00000778                CAN1_IRQHandler
+                0x00000778                Timer1B_IRQHandler
+                0x00000778                Watchdog_IRQHandler
+                0x00000778                UART0_IRQHandler
+                0x00000778                SSI0_IRQHandler
+                0x00000778                UsageFault_Handler
+                0x00000778                ADCSeq1_IRQHandler
+                0x00000778                PWMFault_IRQHandler
+                0x00000778                PWMGen1_IRQHandler
+                0x00000778                SSI1_IRQHandler
+                0x00000778                uDMA_IRQHandler
+                0x00000778                GPIOPortC_IRQHandler
+                0x00000778                ADCSeq2_IRQHandler
+                0x00000778                PWMGen2_IRQHandler
+                0x00000778                UART2_IRQHandler
+                0x00000778                uDMAErr_IRQHandler
+                0x00000778                QEI1_IRQHandler
+                0x00000778                QEI0_IRQHandler
+                0x00000778                PWMGen3_IRQHandler
+                0x00000778                GPIOPortD_IRQHandler
+                0x00000778                USB0_IRQHandler
+                0x00000778                MemManage_Handler
+                0x00000778                Ethernet_IRQHandler
+                0x00000778                SVC_Handler
+                0x00000778                Timer3B_IRQHandler
+                0x00000778                Timer3A_IRQHandler
+                0x00000778                GPIOPortA_IRQHandler
+                0x00000778                ADCSeq0_IRQHandler
+                0x00000778                Timer1A_IRQHandler
+                0x00000778                GPIOPortG_IRQHandler
+                0x00000778                GPIOPortE_IRQHandler
+                0x00000778                CAN0_IRQHandler
+                0x00000778                Comp0_IRQHandler
+                0x00000778                Comp1_IRQHandler
+                0x00000778                Comp2_IRQHandler
+                0x00000778                GPIOPortF_IRQHandler
+                0x00000778                GPIOPortB_IRQHandler
+                0x00000778                CAN2_IRQHandler
+                0x00000778                GPIOPortH_IRQHandler
+                0x00000778                BusFault_Handler
+                0x00000778                Timer2A_IRQHandler
+                0x00000778                Timer2B_IRQHandler
+                0x00000778                SysCtrl_IRQHandler
+                0x00000778                Hibernate_IRQHandler
+ .text.ADCIntClear
+                0x00000780       0x24 ..\obj\adc.o
+                0x00000780                ADCIntClear
+ .text.ADCSequenceDataGet
+                0x000007a4       0x54 ..\obj\adc.o
+                0x000007a4                ADCSequenceDataGet
+ .text.ADCProcessorTrigger
+                0x000007f8       0x38 ..\obj\adc.o
+                0x000007f8                ADCProcessorTrigger
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x00000830       0x9c ..\obj\sysctl.o
+ *(.eh_fram e*)
+
+.glue_7         0x000008cc        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x000008cc        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x000008cc        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x000008cc        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x000008cc        0x0
+ .iplt          0x00000000        0x0 ..\obj\timer.o
+
+.rel.dyn        0x000008cc        0x0
+ .rel.iplt      0x00000000        0x0 ..\obj\timer.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000008cc                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000008cc                __exidx_end = .
+                0x000008cc                __etext = .
+                0x000008cc                _sidata = __etext
+
+.data           0x20000000        0x0 load address 0x000008cc
+                0x20000000                __data_start__ = .
+                0x20000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x20000000                PROVIDE (__preinit_array_end, .)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x20000000                PROVIDE (__init_array_end, .)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x20000000                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __data_end__ = .
+                0x20000000                _edata = __data_end__
+
+.igot.plt       0x20000000        0x0
+ .igot.plt      0x00000000        0x0 ..\obj\timer.o
+
+.bss            0x20000000      0x32c
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __bss_start__ = .
+                0x20000000                _sbss = __bss_start__
+ *(.bss*)
+ .bss           0x20000000      0x32c ..\obj\main.o
+                0x20000320                ADCNumBuf
+                0x20000324                ADC_idx
+                0x20000328                refresh
+ *(COMMON)
+                0x2000032c                . = ALIGN (0x4)
+                0x2000032c                __bss_end__ = .
+                0x2000032c                _ebss = __bss_end__
+
+.heap           0x2000032c        0x0
+                0x2000032c                __end__ = .
+                0x2000032c                _end = __end__
+                0x2000032c                end = __end__
+ *(.heap*)
+                0x2000032c                __HeapLimit = .
+
+.co_stack       0x2000032c      0x404
+                0x20000330                . = ALIGN (0x8)
+ *fill*         0x2000032c        0x4 
+ *(.co_stack .co_stack.*)
+ .co_stack      0x20000330      0x400 ..\obj\startup_lm3s.o
+                0x20000330                pulStack
+                0x20001000                __StackTop = (ORIGIN (ram) + 0x1000)
+                0x20000bfc                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                0x20001000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\timer.o
+LOAD ..\obj\main.o
+LOAD ..\obj\sysctl.o
+LOAD ..\obj\gpio.o
+LOAD ..\obj\interrupt.o
+LOAD ..\obj\startup_lm3s.o
+LOAD ..\obj\syscalls.o
+LOAD ..\obj\adc.o
+LOAD ..\obj\cpu.o
+LOAD ..\obj\systick.o
+LOAD c:/program files/gcc-arm-none-eabi-4_8-2014q2-20140609-win32/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a
+LOAD c:/program files/gcc-arm-none-eabi-4_8-2014q2-20140609-win32/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a
+LOAD c:/program files/gcc-arm-none-eabi-4_8-2014q2-20140609-win32/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc.a
+START GROUP
+LOAD c:/program files/gcc-arm-none-eabi-4_8-2014q2-20140609-win32/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a
+LOAD c:/program files/gcc-arm-none-eabi-4_8-2014q2-20140609-win32/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg.a
+LOAD c:/program files/gcc-arm-none-eabi-4_8-2014q2-20140609-win32/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc.a
+END GROUP
+OUTPUT(SpectrInpector.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x210c
+ .debug_info    0x00000000      0x614 ..\obj\timer.o
+ .debug_info    0x00000614      0x1b5 ..\obj\main.o
+ .debug_info    0x000007c9      0x7b3 ..\obj\sysctl.o
+ .debug_info    0x00000f7c      0x855 ..\obj\gpio.o
+ .debug_info    0x000017d1       0xe9 ..\obj\startup_lm3s.o
+ .debug_info    0x000018ba      0x852 ..\obj\adc.o
+
+.debug_abbrev   0x00000000      0x5ee
+ .debug_abbrev  0x00000000       0xda ..\obj\timer.o
+ .debug_abbrev  0x000000da      0x111 ..\obj\main.o
+ .debug_abbrev  0x000001eb      0x13b ..\obj\sysctl.o
+ .debug_abbrev  0x00000326      0x113 ..\obj\gpio.o
+ .debug_abbrev  0x00000439       0xa7 ..\obj\startup_lm3s.o
+ .debug_abbrev  0x000004e0      0x10e ..\obj\adc.o
+
+.debug_aranges  0x00000000      0x508
+ .debug_aranges
+                0x00000000       0xe8 ..\obj\timer.o
+ .debug_aranges
+                0x000000e8       0x40 ..\obj\main.o
+ .debug_aranges
+                0x00000128      0x188 ..\obj\sysctl.o
+ .debug_aranges
+                0x000002b0      0x120 ..\obj\gpio.o
+ .debug_aranges
+                0x000003d0       0x28 ..\obj\startup_lm3s.o
+ .debug_aranges
+                0x000003f8      0x110 ..\obj\adc.o
+
+.debug_ranges   0x00000000      0x4a8
+ .debug_ranges  0x00000000       0xd8 ..\obj\timer.o
+ .debug_ranges  0x000000d8       0x30 ..\obj\main.o
+ .debug_ranges  0x00000108      0x178 ..\obj\sysctl.o
+ .debug_ranges  0x00000280      0x110 ..\obj\gpio.o
+ .debug_ranges  0x00000390       0x18 ..\obj\startup_lm3s.o
+ .debug_ranges  0x000003a8      0x100 ..\obj\adc.o
+
+.debug_line     0x00000000     0x1519
+ .debug_line    0x00000000      0x3f1 ..\obj\timer.o
+ .debug_line    0x000003f1      0x1a1 ..\obj\main.o
+ .debug_line    0x00000592      0x59a ..\obj\sysctl.o
+ .debug_line    0x00000b2c      0x56f ..\obj\gpio.o
+ .debug_line    0x0000109b       0x92 ..\obj\startup_lm3s.o
+ .debug_line    0x0000112d      0x3ec ..\obj\adc.o
+
+.debug_str      0x00000000     0x1048
+ .debug_str     0x00000000      0x2e3 ..\obj\timer.o
+                                0x2f5 (size before relaxing)
+ .debug_str     0x000002e3      0x143 ..\obj\main.o
+                                0x20f (size before relaxing)
+ .debug_str     0x00000426      0x4d2 ..\obj\sysctl.o
+                                0x5a4 (size before relaxing)
+ .debug_str     0x000008f8      0x33a ..\obj\gpio.o
+                                0x422 (size before relaxing)
+ .debug_str     0x00000c32       0xa1 ..\obj\startup_lm3s.o
+                                0x138 (size before relaxing)
+ .debug_str     0x00000cd3      0x375 ..\obj\adc.o
+                                0x465 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ..\obj\timer.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ..\obj\main.o
+ .comment       0x00000000       0x71 ..\obj\sysctl.o
+ .comment       0x00000000       0x71 ..\obj\gpio.o
+ .comment       0x00000000       0x71 ..\obj\startup_lm3s.o
+ .comment       0x00000000       0x71 ..\obj\adc.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\timer.o
+ .ARM.attributes
+                0x00000033       0x33 ..\obj\main.o
+ .ARM.attributes
+                0x00000066       0x33 ..\obj\sysctl.o
+ .ARM.attributes
+                0x00000099       0x33 ..\obj\gpio.o
+ .ARM.attributes
+                0x000000cc       0x33 ..\obj\startup_lm3s.o
+ .ARM.attributes
+                0x000000ff       0x33 ..\obj\adc.o
+
+.debug_frame    0x00000000     0x1044
+ .debug_frame   0x00000000      0x2f4 ..\obj\timer.o
+ .debug_frame   0x000002f4       0xa4 ..\obj\main.o
+ .debug_frame   0x00000398      0x4ec ..\obj\sysctl.o
+ .debug_frame   0x00000884      0x3f8 ..\obj\gpio.o
+ .debug_frame   0x00000c7c       0x48 ..\obj\startup_lm3s.o
+ .debug_frame   0x00000cc4      0x380 ..\obj\adc.o

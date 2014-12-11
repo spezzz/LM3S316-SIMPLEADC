@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.6" name="SpectrInpector">
+  <Target name="SpectrInpector" isCurrent="1">
+    <Device manufacturerId="6" manufacturerName="TI" chipId="122" chipName="LM3S316" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="SupportCPlusplus" value="0"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="LM3S316"/>
+          <Define name="gcc"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="nostartfiles" value="1"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Use base C Library"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00004000" startValue="0x00000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00001000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="../../configuration/programdata/spectrinpector/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="SpectrInpector"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ColinkEx"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="LM3S_16.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="30" name="C Library" path="" type="2"/>
+    <Component id="50" name="CMSIS core" path="" type="2"/>
+    <Component id="183" name="CPU" path="" type="2"/>
+    <Component id="184" name="LOWLAYER" path="" type="2"/>
+    <Component id="185" name="INTERRUPT" path="" type="2"/>
+    <Component id="186" name="SYSTICK" path="" type="2"/>
+    <Component id="188" name="SYSCTL" path="" type="2"/>
+    <Component id="190" name="GPIO" path="" type="2"/>
+    <Component id="191" name="TIMER" path="" type="2"/>
+    <Component id="193" name="ADC" path="" type="2"/>
+    <Component id="200" name="BOOTLOADER" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="lm3slib/inc/hw_ints.h" path="lm3slib/inc/hw_ints.h" type="1"/>
+    <File name="lm3slib/driverlib/adc.h" path="lm3slib/driverlib/adc.h" type="1"/>
+    <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
+    <File name="cmsis/core_cm3.h" path="cmsis/core_cm3.h" type="1"/>
+    <File name="lm3slib/driverlib/sysctl.c" path="lm3slib/driverlib/sysctl.c" type="1"/>
+    <File name="lm3slib/driverlib/pin_map.h" path="lm3slib/driverlib/pin_map.h" type="1"/>
+    <File name="lm3slib/driverlib/rom.h" path="lm3slib/driverlib/rom.h" type="1"/>
+    <File name="lm3slib/driverlib" path="" type="2"/>
+    <File name="lm3slib/driverlib/debug.h" path="lm3slib/driverlib/debug.h" type="1"/>
+    <File name="lm3slib/driverlib/gpio.c" path="lm3slib/driverlib/gpio.c" type="1"/>
+    <File name="lm3slib/inc/hw_nvic.h" path="lm3slib/inc/hw_nvic.h" type="1"/>
+    <File name="lm3slib/driverlib/systick.h" path="lm3slib/driverlib/systick.h" type="1"/>
+    <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
+    <File name="lm3slib/driverlib/adc.c" path="lm3slib/driverlib/adc.c" type="1"/>
+    <File name="lm3slib/driverlib/cpu.c" path="lm3slib/driverlib/cpu.c" type="1"/>
+    <File name="lm3slib/driverlib/interrupt.h" path="lm3slib/driverlib/interrupt.h" type="1"/>
+    <File name="lm3slib/driverlib/cpu.h" path="lm3slib/driverlib/cpu.h" type="1"/>
+    <File name="lm3slib/inc/hw_adc.h" path="lm3slib/inc/hw_adc.h" type="1"/>
+    <File name="cmsis" path="" type="2"/>
+    <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
+    <File name="lm3slib/driverlib/timer.h" path="lm3slib/driverlib/timer.h" type="1"/>
+    <File name="lm3slib/inc/hw_sysctl.h" path="lm3slib/inc/hw_sysctl.h" type="1"/>
+    <File name="startup/startup_lm3s.c" path="startup/startup_lm3s.c" type="1"/>
+    <File name="lm3slib/driverlib/systick.c" path="lm3slib/driverlib/systick.c" type="1"/>
+    <File name="syscalls" path="" type="2"/>
+    <File name="lm3slib/inc/hw_gpio.h" path="lm3slib/inc/hw_gpio.h" type="1"/>
+    <File name="lm3slib" path="" type="2"/>
+    <File name="lm3slib/inc/hw_types.h" path="lm3slib/inc/hw_types.h" type="1"/>
+    <File name="lm3slib/driverlib/rom_map.h" path="lm3slib/driverlib/rom_map.h" type="1"/>
+    <File name="lm3slib/driverlib/sysctl.h" path="lm3slib/driverlib/sysctl.h" type="1"/>
+    <File name="lm3slib/inc/hw_memmap.h" path="lm3slib/inc/hw_memmap.h" type="1"/>
+    <File name="lm3slib/driverlib/interrupt.c" path="lm3slib/driverlib/interrupt.c" type="1"/>
+    <File name="lm3slib/inc" path="" type="2"/>
+    <File name="lm3slib/inc/hw_timer.h" path="lm3slib/inc/hw_timer.h" type="1"/>
+    <File name="startup" path="" type="2"/>
+    <File name="lm3slib/driverlib/timer.c" path="lm3slib/driverlib/timer.c" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="lm3slib/driverlib/gpio.h" path="lm3slib/driverlib/gpio.h" type="1"/>
+  </Files>
+</Project>
